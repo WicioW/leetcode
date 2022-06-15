@@ -1,4 +1,4 @@
-package arraysandhashing;
+package twopointers;
 
 
 /**
