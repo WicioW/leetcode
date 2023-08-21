@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wicio</groupId>
+    <artifactId>leetcode</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>leetcode</name>
+    <properties>
+        <java.version>20</java.version>
+        <testcontainers.version>1.18.3</testcontainers.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.20.2</version>
+        </dependency>
+        <!--        easy-random fork with support for java records-->
+        <dependency>
+            <groupId>io.github.dvgaba</groupId>
+            <artifactId>easy-random-core</artifactId>
+            <version>6.1.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
